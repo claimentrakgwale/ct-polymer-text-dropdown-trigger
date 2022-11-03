@@ -5,7 +5,7 @@ import { clDefaultTemplate } from "cl-polymer-element-helpers/cl-default-templat
 import { clDefaultStyle } from "cl-polymer-element-helpers/cl-default-style.js";
 
 import { __decorate, query } from "cl-polymer-element-helpers/cl-helpers.js";
-import { property, computed } from "@polymer/decorators";
+import { property, computed, customElement } from "@polymer/decorators";
 
 import "@polymer/paper-ripple/paper-ripple.js";
 import "@polymer/iron-icon/iron-icon.js";
